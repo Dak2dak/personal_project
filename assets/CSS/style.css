@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*======================== CONTACT ME SECTION ================== */
+.contactme{
+    position: relative;
+    padding: 0 2.5rem;
+}
+
+.headings{
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.builder__About--info{
+    margin: 2rem 0;
+}
+
+.builder__info{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.icon__design{
+    font-size: 40px;
+    color: rgb(107, 43, 226);
+}
+
+.input__section{
+    padding-top: 3rem;
+}
+
+.name__box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.project__section,
+.message__section,
+.message__button{
+    margin-top: 2rem;
+}
+
+.name__box input,
+.project__section input{
+    height: 120px;
+    border-radius: 5px;
+}
+
+.message__section input,
+.project__section input,
+.name__box input{
+    background-color: #7562e010;
+    font-size: 18px;
+    padding-left: 20px;
+    display: flex;
+    padding-bottom: 40px;
+    border: unset;
+    width: 100%;
+}
+
+.message__section input{
+    height: 400px;
+    border-radius: 5px;
+    padding-bottom: 290px;
+}
+
+.message__button{
+    width: 235px;
+    height: 80px;
+    padding: 25px 12px 16px 12px;
+    border-radius: 8px;
+    background-color: rgb(107, 43, 226);
+}
+
+.message__button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fixed__icon{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background: rgb(107, 43, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    right: 20px;
+    bottom: 100px;
+}
+
+.message__button a i{
+    margin-left: 10px;
+}
+
+.pinned__icon{
+    color: white;
+}
+
+
+/* ========================== FOOTER ===================== */
+.footer{
+    background-color: rgb(107, 43, 226);
+    color: white;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    font-size: 20px;
+    margin-top: 3rem;
+}
+
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 3rem 0;
+}
+
+.footer__designation li{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.bottom__side{
+    position: relative;
+    text-align: center;
+    margin: 2rem 0;
+    padding-bottom: 2.5rem;
+}
+
+.bottom__title{
+    opacity: .3;
+    font-size: 15px;
+}
+
+.footer__icon a{
+    margin-right: 1.5rem;
+    font-size: 25px;
+}
+
+.footer__icon i{
+    color: white;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+   
+.footer{
+    padding-left: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    position: relative;
+    height: 500px;
+}
+
+.footer__container{
+    position: relative;
+}
+
+.footer__content{
+    position: absolute;
+    top: -70px;
+    right: 1px;
+}
+
+.footer__icon{
+    position: absolute;
+    top: 250px;
+    display: flex;
+}
+
+.footer__designation li{
+    margin-top: 2.5rem;
+}
+
+.bottom__side{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding-top: 340px;
+    padding-bottom: 0;
+    height: 400px;
+} 
+
+   
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+
+    .contactme__down{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .name__box{
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .name__box input,
+    .project__section input{
+        height: 90px;
+    }
+
+    .message__section input{
+        height: 300px;
+        padding-bottom: 200px;
+    }
+
+    .builder__About--info{
+        border: dashed;
+    }
+
+    .input__section{
+        border: dashed;
+    }
+
+
+
+
+
+
+    .footer{
+        padding-left: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__text{
+        position: absolute;
+        margin-top: 30px;
+        left: 255px;
+        
+    }
+
+    .footer__container{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .footer__content{
+        display: flex;
+        gap: 1.5rem;
+        top: 0;
+        right: 5px;
+        margin: 0 3rem 2rem;
+        padding-top: 1.5rem;
+    }
+
+    .footer__designation{
+        display: flex;
+    }
+
+    .footer__designation li{
+        margin: 0 1rem;
+        font-weight: 500;
+    }
+
+    .footer__icon{
+        position: relative;
+        top: 22px;
+        left: 62vh;
+        gap: 1.2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom__side{
+        position: relative;
+        padding-top: 0;
+        height: 250px;
+    }
+
+    .bottom__title{
+        position: relative;
+        right: 125px;
+        bottom: -370px;
+        padding-bottom: 1.5rem;
+        width: 100%;
+    }
+}
