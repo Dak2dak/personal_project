@@ -13,9 +13,82 @@
 
 
 
+            /*===== TESTIMONIAL SECTION =====*/
+.testimonial{
+    padding: 0 1.5rem;
+}
+
+.testimonial__headings{
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.carousel{
+    display: flex;
+}
+
+.testimonial__box{
+    position: absolute;
+}
+
+.client__about--info{
+    display: flex;
+    margin: 2rem 0;
+}
+
+.client__info{
+    display: flex;
+}
+
+.client__info img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 
-/*======================== CONTACT ME SECTION ================== */
+
+
+.owl-dots{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 2px solid #0072bc!important;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot:active{
+    background: #0072bc!important;
+}
+
+
+
+
+
+
+
+            /*===== CONTACT ME SECTION =====*/
 .contactme{
     position: relative;
     padding: 0 2.5rem;
@@ -107,18 +180,15 @@
     border-radius: 5px;
     right: 20px;
     bottom: 100px;
+    color: white;
 }
 
 .message__button a i{
     margin-left: 10px;
 }
 
-.pinned__icon{
-    color: white;
-}
 
-
-/* ========================== FOOTER ===================== */
+            /* ===== FOOTER ===== */
 .footer{
     background-color: rgb(107, 43, 226);
     color: white;
@@ -137,7 +207,7 @@
 
 .footer__designation li{
     list-style: none;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .bottom__side{
@@ -171,62 +241,20 @@
 
 
 
-
+/*======================= RESPONSIVE ==========================*/
 @media screen and (min-width: 769px) {
    
-.footer{
-    padding-left: 2.5rem;
-    display: flex;
-    justify-content: flex-start;
-    gap: 3rem;
-    position: relative;
-    height: 500px;
-}
-
-.footer__container{
-    position: relative;
-}
-
-.footer__content{
-    position: absolute;
-    top: -70px;
-    right: 1px;
-}
-
-.footer__icon{
-    position: absolute;
-    top: 250px;
-    display: flex;
-}
-
-.footer__designation li{
-    margin-top: 2.5rem;
-}
-
-.bottom__side{
-    position: relative;
-    text-align: center;
-    margin: 0;
-    padding-top: 340px;
-    padding-bottom: 0;
-    height: 400px;
-} 
-
-   
-}
 
 
-@media screen and (min-width: 1200px) {
-    
 
     .contactme__down{
         display: flex;
         justify-content: space-evenly;
     }
 
-    .name__box{
-        flex-direction: row;
-        gap: 1.5rem;
+    .message__section input{
+        height: 210px;
+        padding-bottom: 130px;
     }
 
     .name__box input,
@@ -234,24 +262,116 @@
         height: 90px;
     }
 
+    .builder__About--info{
+        width: 40%;
+    }
+
+    .input__section{
+        width: 40%;
+    }
+
+    .contactme{
+        padding: 0 1rem;
+    }
+
+    .message__button a i{
+        margin-left: 3px;
+    }
+
+    .message__button{
+        width: 222px;
+        height: 80px;
+        padding: 25px 12px 16px 12px;
+    }
+
+
+
+
+
+
+
+
+
+    .footer{
+        padding-left: 2.5rem;
+        display: flex;
+        justify-content: flex-start;
+        gap: 3rem;
+        position: relative;
+        height: 500px;
+    }
+
+    .footer__container{
+        position: relative;
+    }
+
+    .footer__content{
+        position: absolute;
+        top: -70px;
+        right: 1px;
+    }
+
+    .footer__icon{
+        position: absolute;
+        top: 250px;
+        left: -35vh;
+        display: flex;
+    }
+
+    .footer__designation li{
+        margin-top: 2.5rem;
+    }
+
+    .bottom__side{
+        position: relative;
+        text-align: center;
+        margin: 0;
+        padding-top: 340px;
+        padding-bottom: 0;
+        height: 400px;
+    } 
+
+   
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+            /*===== CONTACT ME SECTION =====*/
+    .contactme{
+        padding: 0 2.5rem;
+    }
+
+
+    .builder__About--info{
+        width: 20%;
+    }
+
+    .input__section{
+        width: 40%;
+    }
+
+    .name__box{
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .personal__info{
+        width: 100%;
+    }
+
     .message__section input{
         height: 300px;
         padding-bottom: 200px;
     }
 
-    .builder__About--info{
-        border: dashed;
-    }
-
-    .input__section{
-        border: dashed;
-    }
+    
 
 
 
 
 
-
+            /* ===== FOOTER ===== */
     .footer{
         padding-left: 1.5rem;
         display: flex;
@@ -262,7 +382,6 @@
         position: absolute;
         margin-top: 30px;
         left: 255px;
-        
     }
 
     .footer__container{
