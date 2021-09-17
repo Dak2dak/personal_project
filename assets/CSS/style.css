@@ -15,51 +15,59 @@
 
             /*===== TESTIMONIAL SECTION =====*/
 .testimonial{
-    padding: 0 1.5rem;
+    padding: 1rem;
 }
 
 .testimonial__headings{
     text-align: center;
-    margin: 3rem 0;
+    margin: 3rem 0 0 0;
 }
 
 .wrapper{
     width: 100%;
-    position: relative;
 }
 
 .wrapper .carousel{
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 30px;
+    max-width: 11200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
 }
 
 .carousel{
     display: flex;
 }
 
-.testimonial__box{
-    position: absolute;
-}
-
 .client__about--info{
     display: flex;
-    margin: 2rem 0;
+    gap: 3rem;
 }
 
 .client__info{
     display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    border: dashed;
 }
 
 .client__info img{
-    width: 120px;
-    height: 120px;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
     border-radius: 50%;
 }
 
+.client__rate{
+    padding-top: 8px;
+    color: rgb(107, 43, 226);
+    border: dashed;
+}
 
-
+.client__testimony{
+    margin-top: 1.5rem;
+    border: dashed;
+}
 
 .owl-dots{
     text-align: center;
@@ -67,11 +75,11 @@
 }
 
 .owl-dot{
-    height: 13px;
-    width: 13px;
+    height: 10px;
+    width: 10px;
     margin: 0 5px;
     border-radius: 50%;
-    border: 2px solid #0072bc!important;
+    border: 2px solid #7562e010!important;
     cursor: pointer;
     outline: none;
     transition: all .3s ease;
