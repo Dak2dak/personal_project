@@ -91,11 +91,11 @@ html{
 }
 
 .Skills__text--title{
-    font-size: 60px;
+    font-size: 30px;
 }
 
 .Skills__text--subtitle{
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .skills__field{
@@ -105,6 +105,7 @@ html{
 .field__section--details{
     padding: 0 2.5rem;
     margin: 3rem 0;
+    
 }
 
 .section__details--headings{
@@ -112,27 +113,33 @@ html{
     position: relative;
 }
 
-.section__details--headings .fa-crop-alt,
-.fa-drafting-compass{
+.section__details--headings .fa-crop-alt{
+    padding-top: 10px;
+    margin-right: 2rem;
+    font-size: 45px;
+    color: #6e57e0;
+}
+
+.section__details--headings .fa-drafting-compass{
     padding-top: 20px;
     margin-right: 2rem;
-    font-size: 70px;
+    font-size: 45px;
     color: #6e57e0;
 }
 
 .section__details--headings .fa-code-branch{
-    font-size: 93px;
+    font-size: 60px;
     padding-top: 20px;
     color: #6e57e0;
     margin-right: 2rem;
 }
 
 .headings__text--title{
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .headings__text--subtitle{
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .section__details--headings .fa-chevron-up{
@@ -264,13 +271,13 @@ html{
 .services__data{
     display: flex;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 
 .services__data--boxes{
-    width: 46%;
-    height: 350px;
-    padding: 10rem  0 1rem 1.5rem;
+    width: 45.5%;
+    height: 250px;
+    padding: 5rem  0 1rem 1rem;
     box-shadow: 0 0 12px -5px rgb(0,0,0,0.50);
 }
 
@@ -288,14 +295,11 @@ html{
 }
 
 .boxes__designation--details{
-    display: none;
-}
-
-.boxes__designation--details{
     width: 400px;
     height: 300px;
     font-size: 20px;
     padding-left: 1.5rem;
+    display: none;
 }
 
 .my__offers{
@@ -562,21 +566,114 @@ html{
 
 
 /*======================= RESPONSIVE ==========================*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
    
+
+
+    /* ====================SKILLS SECTION====================== */
+    .Skills__text--title{
+        font-size: 40px;
+    }
+    
+    .Skills__text--subtitle{
+        font-size: 16px;
+    }
+
+    .skills__field{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .skills__field--section{
         display: flex;
         flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .field__section--details{
+        padding: 0;
     }
 
     .skills__section{
-        margin: 3.5rem 0 1.5rem 3.5rem;
-        padding-left: 3rem;
+        margin: 3.5rem 0 1.5rem 0;
+        padding-left: 1rem;
         display: contents;
     }
 
+    .section__details--headings .fa-crop-alt{
+        font-size: 35px;
+        margin-right: 1rem;
+        padding-top: 15px;
+    }
 
+    .section__details--headings .fa-drafting-compass{
+        font-size: 35px;
+        margin-right: 1rem;
+        padding-top: 15px;
+    }
+
+    .section__details--headings .fa-code-branch{
+        font-size: 39px;
+        padding-top: 10px;
+        margin-right: 1rem;
+    }
+
+    .skill__item{
+        margin-top: 25px;
+    }
+    
+    .skill__headings{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .skills__bar, 
+    .skills__bar--css,
+    .skills__bar--react,
+    .skills__bar--javascript,
+    .skills__bar--python,
+    .skills__bar--firebase,
+    .skills__bar--node,
+    .skills__bar--php,
+    .skills__bar--figma,
+    .skills__bar--photoshop,
+    .skills__bar--sketch,
+    .skills__bar--html{
+        height: 6px;
+        border-radius: 0.5rem;
+    }
+
+    .headings__text--title{
+        font-size: 20px;
+    }
+    
+    .headings__text--subtitle{
+        font-size: 16px;
+    }
+
+    .skill__item{
+        margin-left: 3.7rem;
+    }
+
+    .field__section--details{
+        padding: 0 1.5rem;
+        margin: 3rem 0;
+    }
+
+    /* ===============SERVICES SECTION================= */
+    .services__data{
+        gap: 2.5rem;
+    }
+
+    .services__data--boxes{
+        width: 47%;
+        height: 300px;
+        padding: 8rem  0 1rem 1.5rem;
+    }
+
+
+    /* ===================CONTACT SECTION=============== */
     .contactme__down{
         display: flex;
         justify-content: space-evenly;
@@ -621,7 +718,7 @@ html{
 
 
 
-
+    /* ======================FOOTER======================== */
     .footer{
         padding-left: 2.5rem;
         display: flex;
@@ -644,7 +741,7 @@ html{
     .footer__icon{
         position: absolute;
         top: 250px;
-        left: -35vh;
+        left: -40vh;
         display: flex;
     }
 
@@ -665,7 +762,7 @@ html{
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
 
 
 
@@ -676,10 +773,11 @@ html{
         display: flex;
         justify-content: center;
         flex-wrap: nowrap;
+        gap: 1.5rem;
     }
 
     .services__data--boxes{
-        width: 20%;
+        width: 25%;
         height: 300px;
         padding-top: 7rem;
     }
