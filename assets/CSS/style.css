@@ -135,7 +135,7 @@ html{
 }
 
 .headings__text--title{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .headings__text--subtitle{
@@ -278,6 +278,7 @@ html{
     width: 45.5%;
     height: 250px;
     padding: 5rem  0 1rem 1rem;
+    background-color: rgb(255, 255, 247);
     box-shadow: 0 0 12px -5px rgb(0,0,0,0.50);
 }
 
@@ -393,13 +394,13 @@ html{
     color: #6e57e0;
 }
 
-.swiper-button-next{
+/* .swiper-button-next{
     right: -0.5rem;
 }
 
 .swiper-button-prev{
     left: -0.5rem;
-}
+} */
 
 .swiper-container .swiper-pagination-bullets{
     bottom: -2.5rem;
@@ -416,78 +417,106 @@ html{
 }
 
 
+    /*============= PROJECT SECTION ==============*/
+.project{
+    background-color: #6e57e0;
+    text-align: center;
+    padding: 3rem 0;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.container__title,
+.container__subtitle{
+    color: #fff;
+}
+
+.container__title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.project__button--down{
+    height: 60px;
+    width: 140px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.project__button--down a{
+    text-decoration: none;
+}
+
+.portrait{
+    position: absolute;
+    top: -110%;
+    right: 18%;
+}
+
+
 
             /*===== TESTIMONIAL SECTION =====*/
+
 .testimonial{
-    padding: 0 2.5rem;
+    padding: 0 1.5rem;
 }
 
 .testimonial__headings{
     text-align: center;
-    margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .wrapper{
     width: 100%;
 }
 
-.wrapper .carousel{
-    max-width: 768px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-.carousel{
+.client__about--info,
+.client__info{
     display: flex;
 }
 
 .client__about--info{
-    display: flex;
-    gap: 3rem;
-}
-
-.client__info{
-    display: flex;
     justify-content: space-between;
-    gap: .5rem;
 }
 
 .client__info{
-    width: 300px;
-    display: flex;
-    justify-content: space-evenly;
+    margin-bottom: 1rem;
 }
 
 .rounder__img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    vertical-align: middle;
+}
+
+.client__name{
+    margin-left: 12px;
+}
+
+.client__name--title{
+    font-size: 18px;
 }
 
 .client__rate{
-    padding-top: 8px;
-    color: rgb(107, 43, 226);
-}
-
-.client__testimony{
-    margin-top: 1.5rem;
+    font-weight: 600;
 }
 
 .owl-dots{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .owl-dot{
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     margin: 0 5px;
     border-radius: 50%;
-    border: 13px solid #7562e010!important;
+    border: 1px solid !important;
     cursor: pointer;
     outline: none;
     transition: all .3s ease;
@@ -497,12 +526,6 @@ html{
 .owl-dot:active{
     background: #7562e010!important;
 }
-
-
-
-
-
-
 
             /*===== CONTACT ME SECTION =====*/
 .contactme{
@@ -587,8 +610,9 @@ html{
 
 .fixed__icon{
     position: fixed;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 1px 25px -5px rgb(0,0,0,0.8);
     background: rgb(107, 43, 226);
     display: flex;
     justify-content: center;
@@ -597,6 +621,7 @@ html{
     right: 20px;
     bottom: 100px;
     color: white;
+    font-size: 25px;
 }
 
 .message__button a i{
@@ -646,15 +671,6 @@ html{
 .footer__icon i{
     color: white;
 } 
-
-
-
-
-
-
-
-
-
 
 
 /*======================= RESPONSIVE ==========================*/
