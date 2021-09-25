@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gomycode last project</title>
-    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link rel="stylesheet" href="assets/CSS/style.css"/>
+    <link rel="stylesheet" href="assets/CSS/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/regular.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
@@ -386,6 +387,70 @@
         </div>
     </section>
 
+      <!--==========================portfolio section==============================-->
+      <section class="portfolio">
+        <div class="portfolio__headings">
+          <h2 class="portfolio__title">Portfolio</h2>
+          <span class="portfolio__subtitle">Most recent work</span>
+        </div>
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio1.jpg" alt="">
+              <h2 class="work__title">Modern Website</h2>
+              <p class="work__description">
+                Websites adaptable to devices, with UI components and animated interactions.
+              </p>
+              <div class="portfolio__button">
+                <a href="" class="button--flex">
+                  Demo
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio2.jpg" alt="">
+              <h2 class="work__title">Modern Website</h2>
+              <p class="work__description">
+                Websites adaptable to devices, with UI components and animated interactions.
+              </p>
+              <div class="portfolio__button">
+                <a href="" class="button--flex">
+                  Demo
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio3.jpg" alt="">
+              <h2 class="work__title">Modern Website</h2>
+              <p class="work__description">
+                Websites adaptable to devices, with UI components and animated interactions.
+              </p>
+              <div class="portfolio__button">
+                <a href="" class="button--flex">
+                  Demo
+                  <i class="fas fa-arrow-right portfolio-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Adding Arrows -->
+          <div class="swiper-button-next">
+            <i class="fas fa-chevron-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fas fa-chevron-left swiper-portfolio-icon"></i>
+          </div>
+          <!-- Adding Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
       <!--=======================testimonial section==============================-->
       <section class="testimonial">
         <div class="testimonial__headings">
@@ -577,8 +642,9 @@
         </div>
       </div>
     </footer>
-    
 
+    
+    <script src="assets/Js/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="assets/Js/main.js"></script>
