@@ -80,8 +80,94 @@ html{
     font-weight: 600;
 }
 
+            /*===== ABOUT SECTION =====*/
+.about__section{
+    padding: 0 2.5rem;
+}
 
+.about__headings{
+    text-align: center;
+}
 
+.about__title{
+    font-size: 30px;
+}
+
+.about__data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container img{
+    width: 320px;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.about__container--details{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.about__description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    font-size: 20px;
+}
+
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.experience__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.years__experience{
+    font-size: 30px;
+}
+
+.experience__description,
+.description__center{
+    font-size: 16px;
+}
+
+.about__button{
+    text-decoration: none;
+    width: 170px;
+    height: 60px;
+    background-color: #6e57e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin: 2rem 0;
+}
+
+.downloading--icon{
+    margin-left: 5px;
+}
 
             /*===== SKILLS SECTION =====*/
 
@@ -418,44 +504,41 @@ html{
 
 
     /*============= PROJECT SECTION ==============*/
-.project{
-    background-color: #6e57e0;
+.project__sec{
     text-align: center;
-    padding: 3rem 0;
-    position: relative;
-    margin-bottom: 3rem;
 }
 
-.container__title,
-.container__subtitle{
+.project__background{
+    background-color: #6e57e0;
+    padding: 3rem 0;
+}
+
+.project__title,
+.project__description{
     color: #fff;
 }
 
-.container__title{
+.project__title{
     font-size: 20px;
     font-weight: 600;
     margin: 1rem 0;
 }
 
-.project__button--down{
+.project__button{
     height: 60px;
     width: 140px;
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
     border-radius: 5px;
     margin: 1rem 0;
-}
-
-.project__button--down a{
     text-decoration: none;
 }
 
-.portrait{
-    position: absolute;
-    top: -110%;
-    right: 18%;
+.project__img{
+   justify-self: center;
 }
 
 
