@@ -162,7 +162,7 @@ html{
     border-radius: 5px;
     color: #fff;
     font-size: 18px;
-    margin: 2rem 0;
+    margin: 2.5rem 0;
 }
 
 .downloading--icon{
@@ -342,6 +342,98 @@ html{
 }
 
 
+            /*===== QUALIFICATION SECTION =====*/
+
+.qualification--head{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.qualification__title{
+    font-size: 30px;
+}
+
+.qualification__headings{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.qualification__headings a{
+    text-decoration: none;
+}
+
+.timeline__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline {
+    width: 400px;
+    margin: 0 2rem;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.timeline__wrapper,
+.timeline__wrapper--end {
+    position: relative;
+}
+
+.timeline__wrapper:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: ' ';
+    display: block;
+    width: 3px;
+    height: 100%;
+    margin-left: -3px;
+    background: grey;
+}
+
+.timeline li {
+    padding: 0 0 1em 0;
+}
+
+.timeline li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.time{
+    margin-top: 1em;
+}
+
+.timeline__left {
+    position: relative;
+    width: 150px;
+    text-align: left;
+    float: left; 
+    left: 8%;
+}
+
+.timeline__right {
+    position: relative;
+    width: 150px;
+    float: right;
+    right: 47%;
+    right: 4%;
+}
+
+.timeline__rounder{
+    position: absolute;
+    background-color: blueviolet;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-weight: bold;
+    left: 47.6%;
+}
 
 
             /*===== SERVICES SECTION =====*/
@@ -364,7 +456,6 @@ html{
     width: 45.5%;
     height: 250px;
     padding: 5rem  0 1rem 1rem;
-    background-color: rgb(255, 255, 247);
     box-shadow: 0 0 12px -5px rgb(0,0,0,0.50);
 }
 
@@ -513,6 +604,13 @@ html{
     padding: 3rem 0;
 }
 
+.project__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .project__title,
 .project__description{
     color: #fff;
@@ -535,6 +633,7 @@ html{
     border-radius: 5px;
     margin: 1rem 0;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .project__img{
@@ -877,7 +976,7 @@ html{
 
     .name__box input,
     .project__section input{
-        height: 90px;
+        height: 80px;
     }
 
     .builder__About--info{
@@ -932,7 +1031,7 @@ html{
     .footer__icon{
         position: absolute;
         top: 250px;
-        left: -40vh;
+        left: -21vh;
         display: flex;
     }
 
@@ -958,7 +1057,6 @@ html{
 
 
             /*===== SERVICES SECTION =====*/
-
 
     .services__data{
         display: flex;
