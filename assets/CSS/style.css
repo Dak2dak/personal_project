@@ -56,7 +56,6 @@ html{
 .dribble--logo{
     width: 25px;
     fill: #6e57e0;
-    font-weight: 600;
 }
 
 .home__introduce{
@@ -69,7 +68,7 @@ html{
 }
 
 .home__subtitle{
-    font-size: 25px;
+    font-size: 22px;
     color: #6d6a7c;
     font-weight: 600;
 }
