@@ -150,7 +150,7 @@ html{
 
 .about__description{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #6d6a7c;
 }
 
@@ -212,6 +212,7 @@ html{
 
 .Skills__text--subtitle{
     font-size: 20px;
+    color: #6d6a7c;
 }
 
 .skills__field{
@@ -256,6 +257,7 @@ html{
 
 .headings__text--subtitle{
     font-size: 20px;
+    color: #6d6a7c;
 }
 
 .section__details--headings .fa-chevron-down{
@@ -385,6 +387,7 @@ html{
 
 .qualification__subtitle{
     font-size: 20px;
+    color: #6d6a7c;
 }
 
 .qualification__headings{
@@ -443,6 +446,7 @@ html{
 .time{
     margin-top: 1.5em;
     font-size: 18px;
+    color: #6d6a7c;
 }
 
 .timeline__left {
@@ -459,6 +463,7 @@ html{
 
 .subtitle{
     font-size: 18px;
+    color: #6d6a7c;
 }
 
 .timeline__right {
@@ -495,6 +500,7 @@ html{
 
 .services__headings--subtitle{
     font-size: 20px;
+    color: #6d6a7c;
 }
 
 .services__data{
@@ -569,6 +575,7 @@ html{
 
 .portfolio__subtitle{
     font-size: 20px;
+    color: #6d6a7c;
 }
 
 .swiper-container {
@@ -586,7 +593,7 @@ html{
 }
 
 .swiper-slide img{
-    width: 300px;
+    width: 80%;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
@@ -597,7 +604,8 @@ html{
 }
 
 .work__description{
-    font-size: 20px;
+    font-size: 18px;
+    color: #6d6a7c;
 }
 
 .portfolio__button{
@@ -717,6 +725,15 @@ html{
     margin-bottom: 1.5rem;
 }
 
+.testimonial__headings--subtitle{
+    color: #6d6a7c;
+}
+
+.carousel{
+    display: flex;
+    gap: 2.5rem;
+}
+
 .wrapper{
     width: 100%;
 }
@@ -728,6 +745,10 @@ html{
 
 .client__about--info{
     justify-content: space-between;
+}
+
+.statement{
+    color: #6d6a7c;
 }
 
 .client__info{
@@ -782,6 +803,14 @@ html{
 .headings{
     text-align: center;
     margin: 3rem 0;
+}
+
+.headings__subtitle{
+    color: #6d6a7c;
+}
+
+.contactme__subtitle{
+    color: #6d6a7c;
 }
 
 .builder__About--info{
