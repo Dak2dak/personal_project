@@ -68,13 +68,13 @@ html{
 }
 
 .home__subtitle{
-    font-size: 22px;
+    font-size: 20px;
     color: #6d6a7c;
     font-weight: 600;
 }
 
 .home__text{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 1rem;
     margin-bottom: 2rem;
     color: #6d6a7c;
@@ -103,8 +103,7 @@ html{
 
             /*===== ABOUT SECTION =====*/
 .about__section{
-    padding: 3rem 2.5rem;
-    margin: 3rem 0;
+    margin: 3rem 1.5rem;
 }
 
 .about__headings{
@@ -116,7 +115,9 @@ html{
 }
 
 .about__subtitle{
-    font-size: 20px;
+    font-size: 18px;
+    color: #6d6a7c;
+
 }
 
 .about__data{
@@ -134,8 +135,9 @@ html{
 }
 
 .about__container img{
-    width: 320px;
-    margin: 2rem 0;
+    width: 200px;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
     border-radius: 8px;
 }
 
@@ -148,8 +150,8 @@ html{
 
 .about__description{
     text-align: center;
-    width: 80%;
-    font-size: 18px;
+    font-size: 1.2rem;
+    color: #6d6a7c;
 }
 
 .experience{
@@ -169,12 +171,13 @@ html{
 }
 
 .years__experience{
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 
 .experience__description,
 .description__center{
-    font-size: 18px;
+    font-size: 1.2rem;
+    color: #6d6a7c;
 }
 
 .about__button{
