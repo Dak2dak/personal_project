@@ -137,7 +137,7 @@ html{
 }
 
 .about__container img{
-    width: 200px;
+    width: 230px;
     margin-bottom: 2rem;
     margin-top: 0.5rem;
     border-radius: 8px;
@@ -230,7 +230,6 @@ html{
 }
 
 .field__section--details{
-    padding: 0 2.5rem;
     margin: 3rem 0;
     
 }
@@ -240,25 +239,12 @@ html{
     position: relative;
 }
 
-.section__details--headings .fa-crop-alt{
-    padding-top: 10px;
-    margin-right: 1.5rem;
-    font-size: 2.8rem;
+.section__details--headings .fa-crop-alt,
+.fa-drafting-compass, .fa-code-branch{
+    padding-top: 15px;
+    margin-right: 1rem;
+    font-size: 30px;
     color: #6e57e0;
-}
-
-.section__details--headings .fa-drafting-compass{
-    padding-top: 20px;
-    margin-right: 1.5rem;
-    font-size: 2.8rem;
-    color: #6e57e0;
-}
-
-.section__details--headings .fa-code-branch{
-    font-size: 3rem;
-    padding-top: 14px;
-    color: #6e57e0;
-    margin-right: 1.5rem;
 }
 
 .headings__text--title{
@@ -275,7 +261,7 @@ html{
     font-size: 25px;
     position: absolute;
     top: 30%;
-    right: 28%;
+    right: 1%;
     color: #6e57e0;
 }
 
@@ -617,7 +603,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 1rem;
+    margin-left: 2.25rem;
 }
 
 .work__title{
@@ -694,7 +680,8 @@ html{
 
 .project__background{
     background-color: #6e57e0;
-    padding: 3rem 0;
+    padding-top: 3rem;
+    height: 641px;
 }
 
 .project__data{
@@ -707,6 +694,7 @@ html{
 .project__title,
 .project__description{
     color: #fff;
+    padding: 0 1.5rem;
 }
 
 .project__title{
@@ -724,7 +712,7 @@ html{
     align-items: center;
     gap: 5px;
     border-radius: 8px;
-    margin: 1rem 0;
+    margin-top: 1rem;
     text-decoration: none;
     font-weight: 600;
     color: #6d6a7c;
@@ -738,7 +726,7 @@ html{
 
 .testimonial{
     margin-top: 3rem;
-    padding: 0 1.5rem;
+    padding: 3rem 1.5rem;
 }
 
 .testimonial__headings{
