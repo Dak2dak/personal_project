@@ -63,7 +63,7 @@ html{
 }
 
 .home__title{
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: .5rem;
 }
 
@@ -74,21 +74,22 @@ html{
 }
 
 .home__text{
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
     color: #6d6a7c;
 }
 
 .home__button{
-    height: 80px;
-    width: 180px;
+    height: 70px;
+    width: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 1.2rem;
     background-color: #6e57e0;
+    margin-bottom: 1rem;
 }
 
 .flex__button{
@@ -111,11 +112,12 @@ html{
 }
 
 .about__title{
-    font-size: 35px;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 
 .about__subtitle{
-    font-size: 18px;
+    font-size: 1rem;
     color: #6d6a7c;
 
 }
@@ -139,6 +141,7 @@ html{
     margin-bottom: 2rem;
     margin-top: 0.5rem;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .about__container--details{
@@ -150,7 +153,7 @@ html{
 
 .about__description{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #6d6a7c;
 }
 
@@ -158,7 +161,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.25rem;
     margin-top: 2.5rem;
 }
 
@@ -171,19 +174,19 @@ html{
 }
 
 .years__experience{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .experience__description,
 .description__center{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #6d6a7c;
 }
 
 .about__button{
     text-decoration: none;
-    width: 230px;
-    height: 90px;
+    width: 200px;
+    height: 80px;
     font-weight: 600;
     background-color: #6e57e0;
     display: flex;
@@ -191,8 +194,9 @@ html{
     align-items: center;
     border-radius: 8px;
     color: #fff;
-    font-size: 23px;
-    margin: 3rem 0;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .downloading--icon{
@@ -201,17 +205,23 @@ html{
 
             /*===== SKILLS SECTION =====*/
 
+.Skills{
+    padding: 0 1.5rem;
+    margin-bottom: 3rem;
+}
+
 .Skills__text{
     text-align: center;
     margin: 0 0 2rem 0;
 }
 
 .Skills__text--title{
-    font-size: 35px;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 
 .Skills__text--subtitle{
-    font-size: 20px;
+    font-size: 1rem;
     color: #6d6a7c;
 }
 
@@ -232,31 +242,32 @@ html{
 
 .section__details--headings .fa-crop-alt{
     padding-top: 10px;
-    margin-right: 2rem;
-    font-size: 45px;
+    margin-right: 1.5rem;
+    font-size: 2.8rem;
     color: #6e57e0;
 }
 
 .section__details--headings .fa-drafting-compass{
     padding-top: 20px;
-    margin-right: 2rem;
-    font-size: 45px;
+    margin-right: 1.5rem;
+    font-size: 2.8rem;
     color: #6e57e0;
 }
 
 .section__details--headings .fa-code-branch{
-    font-size: 50px;
+    font-size: 3rem;
     padding-top: 14px;
     color: #6e57e0;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 
 .headings__text--title{
-    font-size: 25px;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
 }
 
 .headings__text--subtitle{
-    font-size: 20px;
+    font-size: 1rem;
     color: #6d6a7c;
 }
 
@@ -376,17 +387,22 @@ html{
 
             /*===== QUALIFICATION SECTION =====*/
 
+.qualification__section{
+    padding: 1.5rem;
+}
+
 .qualification--head{
     text-align: center;
     margin-bottom: 2rem;
 }
 
 .qualification__title{
-    font-size: 35px;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 
 .qualification__subtitle{
-    font-size: 20px;
+    font-size: 1rem;
     color: #6d6a7c;
 }
 
@@ -454,15 +470,16 @@ html{
     width: 150px;
     text-align: left;
     float: left; 
-    left: 20%;
+    left: -40px;
 }
 
 .title{
-    font-size: 23px;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
 }
 
 .subtitle{
-    font-size: 18px;
+    font-size: 1rem;
     color: #6d6a7c;
 }
 
@@ -470,7 +487,7 @@ html{
     position: relative;
     width: 150px;
     float: right;
-    right: 22%;
+    right: -40px;
 }
 
 .timeline__rounder{
@@ -479,14 +496,13 @@ html{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    font-weight: bold;
-    left: 47.6%;
+    left: 43%;
 }
 
 
             /*===== SERVICES SECTION =====*/
 .services{
-    padding: .5rem 2.5rem;
+    padding: .5rem 1.5rem;
 }
 
 .services__headings{
@@ -495,11 +511,12 @@ html{
 }
 
 .services__headings--title{
-    font-size: 35px;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 
 .services__headings--subtitle{
-    font-size: 20px;
+    font-size: 1rem;
     color: #6d6a7c;
 }
 
@@ -570,11 +587,12 @@ html{
 }
 
 .portfolio__title{
-    font-size: 35px;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 
 .portfolio__subtitle{
-    font-size: 20px;
+    font-size: 1rem;
     color: #6d6a7c;
 }
 
@@ -582,25 +600,29 @@ html{
     width: 100%;
 }
 
-.swiper-wrapper{
-    border: dashed;
-}
-
 .swiper-slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .swiper-slide img{
-    width: 80%;
+    width: 250px;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
 
+.container__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+
 .work__title{
     margin-bottom: 1rem;
-    font-size: 25px;
+    font-size: 1.2rem;
 }
 
 .work__description{
@@ -610,23 +632,20 @@ html{
 
 .portfolio__button{
     display: flex;
-    justify-content: flex-start;
-    padding-left: 0.7rem;
+    justify-content: center;
+    align-items: center;
     background-color: #6e57e0;
     width: 130px;
     height: 70px;
-    vertical-align: middle;
-    padding-top: 11px;
-    border-radius: 10px;
+    border-radius: .5rem;
     margin: 1rem 0 1.5rem;
 }
 
 .swiper-slide a{
     color: #fff;
-    height: 20px;
     font-weight: 600;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 
 .portfolio__button i{
@@ -704,10 +723,11 @@ html{
     justify-content: center;
     align-items: center;
     gap: 5px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 1rem 0;
     text-decoration: none;
     font-weight: 600;
+    color: #6d6a7c;
 }
 
 .project__img{
@@ -717,16 +737,23 @@ html{
             /*===== TESTIMONIAL SECTION =====*/
 
 .testimonial{
+    margin-top: 3rem;
     padding: 0 1.5rem;
 }
 
 .testimonial__headings{
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.testimonial__headings--title{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .testimonial__headings--subtitle{
     color: #6d6a7c;
+    font-size: 1rem;
 }
 
 .carousel{
@@ -797,7 +824,7 @@ html{
             /*===== CONTACT ME SECTION =====*/
 .contactme{
     position: relative;
-    padding: 0 2.5rem;
+    padding: 0 1.5rem;
 }
 
 .headings{
@@ -805,8 +832,19 @@ html{
     margin: 3rem 0;
 }
 
+.headings__title{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
 .headings__subtitle{
     color: #6d6a7c;
+    font-size: 1rem;
+}
+
+.contactme__title{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .contactme__subtitle{
@@ -846,7 +884,7 @@ html{
 
 .name__box input,
 .project__section input{
-    height: 120px;
+    height: 100px;
     border-radius: 5px;
 }
 
@@ -854,7 +892,7 @@ html{
 .project__section input,
 .name__box input{
     background-color: #7562e010;
-    font-size: 18px;
+    font-size: 1.2rem;
     padding-left: 20px;
     display: flex;
     padding-bottom: 40px;
@@ -863,9 +901,9 @@ html{
 }
 
 .message__section input{
-    height: 400px;
+    height: 170px;
     border-radius: 5px;
-    padding-bottom: 290px;
+    padding-bottom: 90px;
 }
 
 .message__button{
