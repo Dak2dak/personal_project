@@ -654,8 +654,8 @@
 
         <div class="portfolio__container swiper-container">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio1.jpg" alt="">
+            <div class="portfolio__content swiper-slide">
+              <img src="assets/img/portfolio1.jpg" alt="" class="portfolio-img">
               <div class="container__data">
                 <h2 class="work__title">Modern Website</h2>
                 <p class="work__description">
@@ -671,8 +671,8 @@
               </div>
             </div>
 
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio2.jpg" alt="">
+            <div class="portfolio__content swiper-slide">
+              <img src="assets/img/portfolio2.jpg" alt="" class="portfolio-img">
               <div class="container__data">
                 <h2 class="work__title">Brand Design</h2>
                 <p class="work__description">
@@ -688,8 +688,8 @@
               </div>
             </div>
 
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio3.jpg" alt="">
+            <div class="portfolio__content swiper-slide">
+              <img src="assets/img/portfolio3.jpg" alt="" class="portfolio-img">
               <div class="container__data">
                 <h2 class="work__title">Online Store</h2>
                 <p class="work__description">
@@ -741,14 +741,16 @@
           <h1 class="testimonial__headings--title">testimonial</h1>
           <span class="testimonial__headings--subtitle">My client saying</span>
         </div>
+        <!-- swiper -->
         <div class="testimonial__container swiper-container">
           <div class="swiper-wrapper">
-            <div class="testimonial__box item">
+
+            <div class="testimonial__box swiper-slide">
               <div class="client__about--info">
                 <div class="client__info">
                   <img src="assets/img/testimonial2.jpg" alt="" class="rounder__img">
                   <div class="client__name">
-                    <h2 class="client__name--title">Hector Zeroni</h2>
+                    <h3 class="client__name--title">Hector Zeroni</h3>
                     <span class="client__name--subtitle">Client</span>
                   </div>
                 </div>
@@ -760,21 +762,21 @@
                   <i class="far fa-star"></i>
                 </div>
               </div>
-              <div class="client__testimony">
-                <p class="statement">
-                  I get a good impression. I carry out my <br> 
-                  project with all the possible quality, <br>attention
-                  and support 24 hours a day.
-                </p>
-              </div>
+             
+              <p class="statement">
+                I get a good impression. I carry out my 
+                project with all the possible quality, attention
+                and support 24 hours a day.
+              </p>
+             
             </div>
 
-            <div class="testimonial__box item">
+            <div class="testimonial__box swiper-slide">
               <div class="client__about--info">
                 <div class="client__info">
                   <img src="assets/img/testimonial1.jpg" alt="" class="rounder__img">
                   <div class="client__name">
-                    <h2 class="client__name--title">Sarah Victoire</h2>
+                    <h3 class="client__name--title">Sarah Victoire</h3>
                     <span class="client__name--subtitle">Client</span>
                   </div>
                 </div>
@@ -786,24 +788,26 @@
                   <i class="far fa-star"></i>
                 </div>
               </div>
-              <div class="client__testimony">
-                <p class="statement">
-                  I get a good impression. I carry out my <br> 
-                  project with all the possible quality,<br> attention 
-                  and support 24 hours a day.
-                </p>
-              </div>
+
+              <p class="statement">
+                I get a good impression. I carry out my
+                project with all the possible quality, attention
+                and support 24 hours a day.
+              </p>
+
             </div>
 
-            <div class="testimonial__box item">
+            <div class="testimonial__box swiper-slide">
               <div class="client__about--info">
+                
                 <div class="client__info">
                   <img src="assets/img/testimonial3.jpg" alt="" class="rounder__img">
                   <div class="client__name">
-                    <h2 class="client__name--title">Mike Jhones</h2>
+                    <h3 class="client__name--title">Mike Jhones</h3>
                     <span class="client__name--subtitle">Client</span>
                   </div>
                 </div>
+
                 <div class="client__rate">
                   <i class="far fa-star"></i>
                   <i class="far fa-star"></i>
@@ -812,16 +816,17 @@
                   <i class="far fa-star"></i>
                 </div>
               </div>
-              <div class="client__testimony">
-                <p class="statement">
-                  I get a good impression. I carry out my <br> 
-                  project with all the possible quality,<br> attention
-                  and support 24 hours a day.
-                </p>
-              </div>
+
+              <p class="statement">
+                I get a good impression. I carry out my 
+                project with all the possible quality, attention
+                and support 24 hours a day.
+              </p>
+
             </div>
           </div>
-          <div class="swiper-pagination swiper-pagination-bullet"></div>
+          <!-- pagination -->
+          <div class="swiper-pagination swiper-pagination-testimonial"></div>
         </div>
       </section>
 

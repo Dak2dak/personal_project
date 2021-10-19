@@ -568,6 +568,10 @@ html{
     padding: 0 1.5rem;
 }
 
+.portfolio__content{
+    padding: 0 1.5rem;
+}
+
 .portfolio__headings{
     text-align: center;
     margin: 3rem 0;
@@ -583,14 +587,7 @@ html{
     color: #6d6a7c;
 }
 
-.swiper-slide{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.swiper-slide img{
+.portfolio-img{
     width: 265px;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -609,8 +606,7 @@ html{
 }
 
 .work__description{
-    padding-right: 2rem;
-    font-size: 18px;
+    font-size: 1rem;
     color: #6d6a7c;
 }
 
@@ -620,12 +616,12 @@ html{
     align-items: center;
     background-color: #6e57e0;
     width: 130px;
-    height: 70px;
+    height: 60px;
     border-radius: .5rem;
     margin-top: 1rem;
 }
 
-.portfolio__button:hover .btn--icon{
+.btn--icon:hover{
     transform: translateX(.25rem);
 }
 
@@ -658,9 +654,9 @@ html{
     left: -0.5rem;
 }
 
-/* .swiper-container-horizontal > .swiper-pagination-bullets{
+.swiper-container .swiper-pagination-bullets{
     bottom: -2.5rem;
-} */
+}
 
 .swiper-pagination-bullet-active{
     background-color: #6e57e0;
@@ -739,23 +735,17 @@ html{
 }
 
 .testimonial__headings--title{
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+    font-size: 1rem;
 }
 
 .testimonial__headings--subtitle{
     color: #6d6a7c;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
-/* .carousel{
-    display: flex;
-    gap: 2.5rem;
-}
-
-.wrapper{
+.swiper-wrapper{
     width: 100%;
-} */
+}
 
 .client__about--info,
 .client__info{
@@ -768,6 +758,8 @@ html{
 
 .statement{
     color: #6d6a7c;
+    font-size: .8rem;
+    width: 280px;
 }
 
 .client__info{
@@ -785,33 +777,24 @@ html{
 }
 
 .client__name--title{
-    font-size: 18px;
+    font-size: 1rem;
+}
+
+.client__name--subtitle{
+    font-size: .8rem;
 }
 
 .client__rate{
     font-weight: 600;
+    font-size: .8rem;
+    color: #6e57e0;
+    margin-right: .5rem;
 }
 
-/* .owl-dots{
-    text-align: center;
-    margin-top: 30px;
-} */
+.swiper-container .swiper-pagination-testimonial{
+    bottom: 0;
+}
 
-/* .owl-dot{
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    border-radius: 50%;
-    border: 1px solid !important;
-    cursor: pointer;
-    outline: none;
-    transition: all .3s ease;
-} */
-
-/* .owl-dot:hover,
-.owl-dot:active{
-    background: #7562e010!important;
-} */
 
             /*===== CONTACT ME SECTION =====*/
 .contactme{

@@ -17,7 +17,7 @@
         // });
 
 
-        let swiper = new Swiper('.portfolio__container', {
+        let swiperPortfolio = new Swiper('.portfolio__container', {
             cssMode: true,
             loop: true,
 
@@ -32,29 +32,19 @@
         });
 
 
-        let swiper = new Swiper('.testimonial__container', {
-            cssMode: true,
+        let swiperTestimonial = new Swiper('.testimonial__container', {
+
+            grabCursor: true,
+            spaceBetween: 50,
             loop: true,
-            responsive: {
-                0: {
-                    items: 1,
-                },
-                610: {
-                    items: 2,
-                },
-            },
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
+                dynamicBullets: true,
             },
+            breakpoints:{
+                570:{
+                    slidesPreView: 2,
+                }
+            } 
         });
-
-
-        const tab = document.querySelectorAll('[data-target]'),
-            tabContents = document.querySelectorAll('[data-content]')
-
-           tabs.forEach(tab =>{
-               tab.addEventListener('click', ( => {
-                   const target = document.querySelector(tab.dataset.target)
-               }))
-           })
