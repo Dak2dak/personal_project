@@ -58,6 +58,13 @@ html{
     fill: #6e57e0;
 }
 
+.github--logo,
+.linkedin--logo,
+.dribble--logo:hover{
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
 .home__introduce{
     margin: 2rem 0 0 0;
 }
@@ -568,6 +575,11 @@ html{
     padding: 0 1.5rem;
 }
 
+.portfolio__container{
+    position: relative;
+    margin-left: 1rem;
+}
+
 .portfolio__content{
     padding: 0 1.5rem;
 }
@@ -587,7 +599,7 @@ html{
     color: #6d6a7c;
 }
 
-.portfolio-img{
+.portfolio__content .portfolio-img{
     width: 265px;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -601,6 +613,7 @@ html{
 }
 
 .work__title{
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
@@ -615,8 +628,8 @@ html{
     justify-content: center;
     align-items: center;
     background-color: #6e57e0;
-    width: 130px;
-    height: 60px;
+    width: 120px;
+    height: 55px;
     border-radius: .5rem;
     margin-top: 1rem;
 }
@@ -636,26 +649,26 @@ html{
     margin-left: 8px;
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after{
-    content: '';
+.swiper-button-next::after, 
+.swiper-button-prev::after{
+    content: ' ' !important;
 }
 
 .swiper-portfolio-icon{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #6e57e0;
 }
 
-.swiper-button-next{
-    right: -0.5rem;
+.fa-chevron-left{
+    margin-right: 1.5rem;
 }
 
-.swiper-button-prev{
-    left: -0.5rem;
+.fa-chevron-right{
+    margin-left: 1.5rem;
 }
 
 .swiper-container .swiper-pagination-bullets{
-    bottom: -2.5rem;
+
 }
 
 .swiper-pagination-bullet-active{
@@ -669,7 +682,10 @@ html{
 }
 
 .swiper-pagination-bullet{
-    margin-top: 25px;
+    height: 10px !important;
+    width: 10px !important;
+    position: absolute;
+    
 }
 
 
@@ -735,7 +751,7 @@ html{
 }
 
 .testimonial__headings--title{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .testimonial__headings--subtitle{
@@ -758,8 +774,8 @@ html{
 
 .statement{
     color: #6d6a7c;
-    font-size: .8rem;
-    width: 280px;
+    font-size: 1rem;
+    width: 320px;
 }
 
 .client__info{
