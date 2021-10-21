@@ -668,7 +668,7 @@ html{
 }
 
 .swiper-container .swiper-pagination-bullets{
-
+    bottom: -3rem;    
 }
 
 .swiper-pagination-bullet-active{
@@ -681,11 +681,9 @@ html{
     outline: none;
 }
 
-.swiper-pagination-bullet{
-    height: 10px !important;
-    width: 10px !important;
+.swiper-pagination-portfolio{
     position: absolute;
-    
+    top: 102%;
 }
 
 
@@ -763,6 +761,14 @@ html{
     width: 100%;
 }
 
+.testimonial__container{
+    position: relative;
+}
+
+.testimonial__box{
+    margin-right: .5rem;
+}
+
 .client__about--info,
 .client__info{
     display: flex;
@@ -807,8 +813,14 @@ html{
     margin-right: .5rem;
 }
 
-.swiper-container .swiper-pagination-testimonial{
-    bottom: 0;
+.swiper-horizontal>.swiper-pagination-bullets {
+    bottom: -2.5rem!important;
+    left: 0;
+    width: 100%;
+}
+
+.swiper-pagination-testimonial{
+    position: absolute;
 }
 
 
@@ -869,7 +881,7 @@ html{
 
 .project__section,
 .message__section,
-.message__button{
+.message__btn{
     margin-top: 2rem;
 }
 
@@ -897,19 +909,29 @@ html{
     padding-bottom: 90px;
 }
 
-.message__button{
-    width: 225px;
-    height: 80px;
-    padding: 25px 12px 16px 12px;
+.message__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 190px;
+    height: 75px;
+    border: unset;
     border-radius: 8px;
-    background-color: rgb(107, 43, 226);
+    background-color: #6e57e0;
 }
 
-.message__button a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+.message__btn input{
+    background-color: #6e57e0;
+    border: unset;
     font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.message__btn i{
+    color: white;
+    font-weight: bold;
 }
 
 .fixed__icon{
@@ -928,9 +950,6 @@ html{
     font-size: 25px;
 }
 
-.message__button a i{
-    margin-left: 10px;
-}
 
 
             /* ===== FOOTER ===== */
@@ -941,6 +960,10 @@ html{
     padding-top: 2rem;
     font-size: 20px;
     margin-top: 3rem;
+}
+
+input{
+    outline: none;
 }
 
 .footer__content{

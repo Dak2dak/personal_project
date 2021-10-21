@@ -1,5 +1,4 @@
 
-
         let swiperPortfolio = new Swiper('.portfolio__container', {
             cssMode: true,
             loop: true,
