@@ -1263,7 +1263,7 @@ input{
     }
 
     .home__up--right{
-        right: 15%;
+        right: 25%;
         top: -10px;
     }
 
@@ -1301,22 +1301,39 @@ input{
     }
 
     .about__container img{
-        width: 350px;
+        width: 400px;
     }
 
     .about__container--details{
         align-items: flex-start;
-        margin-left: 3.5rem;
+        margin-left: 5.5rem;
     }
 
     .about__description{
-        width: 310px;
+        width: 350px;
         align-items: flex-start;
         text-align: start;
     }
 
     .experience{
-        gap: 1rem;
+        gap: 3.5rem;
+    }
+
+
+            /*===== SKILLS SECTION =====*/
+
+    
+    .skills__field{
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills__field--section{
+        
+    }
+
+    .field__section--details{
+        
     }
 
             /*===== QUALIFICATION SECTION =====*/
@@ -1356,6 +1373,52 @@ input{
         padding-top: 7rem;
     }
 
+
+            /*===== PORTFOLIO SECTION =====*/
+
+    .portfolio__content{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    .portfolio__content .portfolio-img{
+        width: 380px;
+        margin-bottom: 0;
+        justify-self: normal;
+    }
+
+    .container__data{
+        flex-wrap: wrap;
+        width: 320px;
+        margin-left: 5rem;
+    }
+
+    .work__title{
+        font-size: 1.4rem;
+    }
+
+    .portfolio__button{
+        margin-bottom: 2rem;
+        height: 65px;
+    }
+
+    .fa-chevron-left{
+        margin-right: 0;
+    }
+    
+    .fa-chevron-right{
+        margin-left: 0;
+    }
+
+    .swiper-pagination-portfolio{
+        top: 90%;
+    }
+
+    
+
             /*===== PROJECT SECTION =====*/
 
     .project__sec{
@@ -1376,6 +1439,7 @@ input{
         justify-content: flex-start;
         align-items: flex-start;
         margin-left: 3rem;
+        
     }
 
     .project__title{
@@ -1397,7 +1461,21 @@ input{
 
             /*===== TESTIMONIAL SECTION =====*/
 
+    /* .swiper-wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } */
 
+    .client__about--info{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .testimonial__box{
+        display: flex;
+        flex-direction: column;
+    }
     
             /*===== CONTACT ME SECTION =====*/
     .contactme{
