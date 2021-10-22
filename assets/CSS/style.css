@@ -634,8 +634,9 @@ html{
     margin-top: 1rem;
 }
 
-.btn--icon:hover{
-    transform: translateX(.25rem);
+.button--flex:hover .btn--icon{
+    transition: all .3s ease;
+    transform: translateX(50%);
 }
 
 .swiper-slide a{
@@ -1337,6 +1338,7 @@ input{
     }
 
             /*===== QUALIFICATION SECTION =====*/
+
     .qualification__headings{
         justify-content: center;
         gap: 3rem;
@@ -1346,16 +1348,32 @@ input{
         margin-right: 1.5rem;
     }
 
+    .timeline__left {
+        width: 250px;
+    }
+    
+    .timeline__right {
+        width: 250px;
+    }
+
     .timeline__left { 
-        left: 30%;
+        left: 33%;
     }
 
     .timeline__right {
-        right: 32%;
+        right: 30%;
     }
 
     .timeline__rounder{
-        left: 48.4%;
+        left: 48.8%;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .subtitle, .time{
+        font-size: 1rem;
     }
 
             /*===== SERVICES SECTION =====*/
@@ -1368,9 +1386,15 @@ input{
     }
 
     .services__data--boxes{
-        width: 23%;
-        height: 300px;
-        padding-top: 7rem;
+        width: 18%;
+        height: 360px;
+        padding-top: 10rem;
+        padding-left: 3rem;
+    }
+
+    .services__link:hover .fa-arrow-right{
+        transform: translateX(50%);
+        transition: all .3s ease;
     }
 
 
@@ -1426,6 +1450,7 @@ input{
         justify-content: center;
         align-content: center;
         text-align: start;
+        margin-top: 3rem;
     }
     
     .project__background{
