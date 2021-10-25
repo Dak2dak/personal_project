@@ -437,7 +437,7 @@ html{
     top: 0;
     content: ' ';
     display: block;
-    width: 3px;
+    width: 2px;
     height: 100%;
     margin-left: -11px;
     background: grey;
@@ -487,10 +487,10 @@ html{
 .timeline__rounder{
     position: absolute;
     background-color: #6e57e0;
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
-    left: 43%;
+    left: 43.5%;
 }
 
 
@@ -1376,6 +1376,10 @@ input{
         font-size: 1rem;
     }
 
+    .bloc_2{
+        left: 37%;
+    }
+
             /*===== SERVICES SECTION =====*/
 
     .services__data{
@@ -1486,12 +1490,6 @@ input{
 
             /*===== TESTIMONIAL SECTION =====*/
 
-    /* .swiper-wrapper{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    } */
-
     .client__about--info{
         display: flex;
         justify-content: space-around;
@@ -1585,7 +1583,7 @@ input{
 
     .bottom__title{
         position: relative;
-        right: 125px;
+        right: 20px;
         bottom: -370px;
         padding-bottom: 1.5rem;
         width: 100%;
