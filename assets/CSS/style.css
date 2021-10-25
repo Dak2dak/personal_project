@@ -660,11 +660,11 @@ html{
     color: #6e57e0;
 }
 
-.fa-chevron-left{
+.swiper-button-prev .swiper-portfolio-icon{
     margin-right: 1.5rem;
 }
 
-.fa-chevron-right{
+.swiper-button-next .swiper-portfolio-icon{
     margin-left: 1.5rem;
 }
 
