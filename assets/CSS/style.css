@@ -23,7 +23,7 @@ html{
     justify-content: flex-start;
     flex-wrap: wrap;
     padding: 0 1.5rem;
-    margin: 3rem 0 1.5rem 0;
+    margin: 3rem 0 3rem 0;
 }
 
 .home__up{
@@ -66,7 +66,7 @@ html{
 }
 
 .home__introduce{
-    margin: 2rem 0 0 0;
+    margin: 2rem 0 2.5rem 0;
 }
 
 .home__title{
@@ -378,7 +378,7 @@ html{
             /*===== QUALIFICATION SECTION =====*/
 
 .qualification__section{
-    padding: 1.5rem;
+    padding: 3rem 1.5rem 1.5rem;
 }
 
 .qualification--head{
@@ -496,7 +496,7 @@ html{
 
             /*===== SERVICES SECTION =====*/
 .services{
-    padding: .5rem 1.5rem;
+    padding: .5rem 1.5rem 3rem 1.5rem;
 }
 
 .services__headings{
@@ -577,11 +577,11 @@ html{
 
 .portfolio__container{
     position: relative;
-    margin-left: 1rem;
+    padding-bottom: 3rem;
 }
 
 .portfolio__content{
-    padding: 0 1.5rem;
+    padding: 0 1.5rem 1rem 1.5rem;
 }
 
 .portfolio__headings{
@@ -603,6 +603,7 @@ html{
     width: 265px;
     border-radius: 8px;
     margin-bottom: 1rem;
+    margin-left: .3rem;
     justify-self: center;
 }
 
@@ -613,9 +614,8 @@ html{
 }
 
 .work__title{
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    font-size: 1rem;
 }
 
 .work__description{
@@ -628,7 +628,7 @@ html{
     justify-content: center;
     align-items: center;
     background-color: #6e57e0;
-    width: 120px;
+    width: 110px;
     height: 55px;
     border-radius: .5rem;
     margin-top: 1rem;
@@ -647,7 +647,8 @@ html{
 }
 
 .portfolio__button i{
-    margin-left: 8px;
+    margin-left: 6px;
+    font-size: .8rem;
 }
 
 .swiper-button-next::after, 
@@ -661,11 +662,15 @@ html{
 }
 
 .swiper-button-prev .swiper-portfolio-icon{
-    margin-right: 1.5rem;
+    margin-right: 2.5rem;
+    position: absolute;
+    bottom: 80%;
 }
 
 .swiper-button-next .swiper-portfolio-icon{
-    margin-left: 1.5rem;
+    margin-left: 2rem;
+    position: absolute;
+    bottom: 80%;
 }
 
 .swiper-container .swiper-pagination-bullets{
@@ -684,7 +689,7 @@ html{
 
 .swiper-pagination-portfolio{
     position: absolute;
-    top: 102%;
+    top: 90%;
 }
 
 
