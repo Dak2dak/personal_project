@@ -79,8 +79,8 @@ html{
     font-weight: 600;
 }
 
-.home__text{
-    font-size: 1rem;
+.home__description{
+    font-size: .9rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
     color: #6d6a7c;
@@ -159,7 +159,7 @@ html{
 
 .about__description{
     text-align: center;
-    font-size: 1rem;
+    font-size: .9rem;
     color: #6d6a7c;
 }
 
@@ -615,7 +615,7 @@ html{
 
 .work__title{
     margin-bottom: .5rem;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .work__description{
