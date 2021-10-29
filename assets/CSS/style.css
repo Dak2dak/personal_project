@@ -11,7 +11,10 @@ html{
     scroll-behavior: smooth;
 }
 
-
+.dark-mode {
+    background-color: rgb(23, 23, 26);
+    color: white;
+  }
 
 
 
@@ -518,6 +521,14 @@ html{
     left: 43.5%;
 }
 
+#work__timeline {
+   
+}
+
+.hide{
+    display: none;
+}
+
 
             /*===== SERVICES SECTION =====*/
 .services{
@@ -797,7 +808,7 @@ html{
 }
 
 .testimonial__box{
-    margin-right: .5rem;
+    margin-right: 1.5rem;
 }
 
 .client__about--info,
@@ -1299,7 +1310,10 @@ input{
     }
 
     .home__blob{
-        width: 300px;
+        position: absolute;
+        width: 400px;
+        left: -300px;
+        /* gotta find a solution for this */
     }
 
     .home__introduce{
@@ -1307,8 +1321,13 @@ input{
         top: 20px;
     }
 
-    .home__text{
-        width: 290px;
+    .home__title{
+        font-size: 3rem;
+    }
+
+    .home__description{
+        width: 340px;
+        font-size: 1rem;
     }
 
     .home__button{
@@ -1323,9 +1342,14 @@ input{
         display: flex;
     }
 
+    .home__screen--scroll{
+        display: initial;
+        width: 150px;
+    }
+
             /*===== ABOUT SECTION =====*/
     .about__section{
-        margin-top: 23rem;    
+        /* margin-top: 23rem;     */
         /* there's something wrong with this */
         margin-bottom: 5.5rem;
         padding: 0;

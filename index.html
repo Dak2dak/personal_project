@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>gomycode last project</title>
+    <title>Gomycode last project</title>
     <link rel="stylesheet" href="assets/CSS/style.css"/>
     <link rel="stylesheet" href="assets/CSS/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/regular.min.css"/>
@@ -40,9 +40,9 @@
               <a href="" class="nav__right--content">Contactme</a>
             </li>
             <li>
-              <a href="" class="nav__right--content"
-                ><i class="far fa-moon"></i
-              ></a>
+              <a href="" class="nav__right--content" onclick="darkMode()">
+                <i class="far fa-moon"></i>
+              </a>
             </li>
           </div>
         </ul>
@@ -131,7 +131,7 @@
             knowledge, producing quality work.
           </p>
 
-          <div class="home__button">
+          <div class="home__button" onclick="homeFunction()">
             <a href="" class="flex__button">
               Contact me
               <i class="far fa-paper-plane"></i>
@@ -183,7 +183,7 @@
                   <span class="description__center">worked for</span>
                 </div>
               </div>
-              <a href="" class="about__button">
+              <a href="assets/CV/CV.pdf" class="about__button" onclick="aboutFunction()">
                 Download CV
                 <i class="fas fa-cloud-download-alt downloading--icon"></i>
               </a>
@@ -231,10 +231,10 @@
                             <h1 class="headings__text--title">Front-end developer</h1>
                             <span class="headings__text--subtitle">More than 4 years</span>
                         </div>
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down" id="upside__down"></i>
                     </div>
                         
-                    <div class="skills__section">
+                    <div class="skills__section" id="skills__section">
                         <div class="skill__item">
                             <div class="skill__headings">
                                 <h3 class="skill__title">HTML</h3>
@@ -292,10 +292,10 @@
                         <h1 class="headings__text--title">Back-end developer</h1>
                         <span class="headings__text--subtitle">More than 4 years</span>
                         </div>
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down" id="upside__down"></i>
                     </div>
                     
-                    <div class="skills__section">
+                    <div class="skills__section" id="skills__section">
                         <div class="skill__item">
                             <div class="skill__headings">
                                 <h3 class="skill__title">PHP</h3>
@@ -354,10 +354,10 @@
                             <h1 class="headings__text--title">Designer</h1>
                             <span class="headings__text--subtitle">More than 5 years</span>
                         </div>
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down" id="upside__down"></i>
                     </div>
                         
-                    <div class="skills__section">
+                    <div class="skills__section" id="skills__section">
                         <div class="skill__item">
                             <div class="skill__headings">
                                 <h3 class="skill__title">Figma</h3>
@@ -412,11 +412,11 @@
         </div>
         <div class="qualification__data">
           <div class="qualification__headings">
-            <a href="" class="education">
+            <a href="" class="education" >
               <i class="fas fa-graduation-cap qualification__icon"></i>
               Education
             </a>
-            <a href="" class="work">
+            <a href="" class="work" >
               <i class="fas fa-briefcase qualification__icon"></i>
               Work
             </a>
@@ -424,7 +424,7 @@
 
           <div class="timeline__container">
       <!--===================unordered lines bloc 1=======================-->
-            <ul class="timeline">
+            <ul class="timeline hide" id="edu__timeline">
               <li class="timeline__wrapper">
                   <div class="timeline__left">
                       <h3 class="title">Computer Engineer</h3>
@@ -475,7 +475,7 @@
       
           </ul>
       <!--===================unordered lines bloc 2=======================-->
-          <ul class="timeline" id="appears__onClick">
+          <ul class="timeline hide" id="work__timeline">
               <li class="timeline__wrapper">
                   <div class="timeline__left bloc_2">
                       <h3 class="title">Soft Engineer</h3>
