@@ -16,6 +16,32 @@ html{
     color: white;
   }
 
+            /*===== HOME SECTION =====*/
+.navbar{
+    /* box-shadow: 0 5px 10px #efefef; */
+    box-shadow: 5px 0 10px #efefef;
+    padding: .5rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.nav__list{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav__right{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav__list li{
+    list-style: none;
+}
+
+.nav__list li a{
+    text-decoration: none;
+}
 
 
 
@@ -1299,9 +1325,22 @@ input{
 @media screen and (min-width: 1024px) {
 
             /*===== HOME SECTION =====*/
+
+    .nav__list{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+            /*===== HOME SECTION =====*/
+    .home{
+        height: 350px;
+    }
+    
     .home__up--left{
         position: absolute;
-        left: 12%;
+        left: 13%;
+        top: 25%;
     }
 
     .home__up--right{
@@ -1311,18 +1350,20 @@ input{
 
     .home__blob{
         position: absolute;
+        margin-top: 3rem;
         width: 400px;
-        left: -300px;
-        /* gotta find a solution for this */
+        left: -250px;
     }
 
     .home__introduce{
         left: 25%;
         top: 20px;
+        margin-bottom: 3rem;
     }
 
     .home__title{
-        font-size: 3rem;
+        margin-top: 3rem;
+        font-size: 3.5rem;
     }
 
     .home__description{
@@ -1331,11 +1372,16 @@ input{
     }
 
     .home__button{
-        left: 25%;
+        position: absolute;
+        left: 1%;
+        top: 100%;
     }
 
     .home__screen--scroll {
+        position: absolute;
         display: initial;
+        bottom: -35%;
+        left: 27%;
     }
     
     .card {
@@ -1349,14 +1395,12 @@ input{
 
             /*===== ABOUT SECTION =====*/
     .about__section{
-        /* margin-top: 23rem;     */
-        /* there's something wrong with this */
         margin-bottom: 5.5rem;
-        padding: 0;
+        padding: 3rem 0 0 0;
     }
 
     .about__container img{
-        width: 400px;
+        width: 350px;
     }
 
     .about__container--details{
@@ -1365,9 +1409,10 @@ input{
     }
 
     .about__description{
-        width: 350px;
+        width: 340px;
         align-items: flex-start;
         text-align: start;
+        font-size: 1rem;
     }
 
     .experience{
@@ -1377,19 +1422,44 @@ input{
 
             /*===== SKILLS SECTION =====*/
 
+    .Skills{
+        border: dashed;
+        margin-bottom: 3rem;
+    }
     
     .skills__field{
         display: flex;
         justify-content: center;
     }
 
-    .skills__field--section{
-        
+    .box-1{
+        display: block;
+        margin-left: 0;
     }
 
-    .field__section--details{
-        
-    }
+    .skills__bar, 
+.skills__bar--css,
+.skills__bar--react,
+.skills__bar--javascript,
+.skills__bar--python,
+.skills__bar--firebase,
+.skills__bar--node,
+.skills__bar--php,
+.skills__bar--figma,
+.skills__bar--photoshop,
+.skills__bar--sketch,
+.skills__bar--html{
+    height: 5px;
+}
+
+.skill__title, .skill__title--percentage{
+    font-size: 1rem;
+}
+
+/* .skill__item{
+    margin-bottom: ;
+} */
+
 
             /*===== QUALIFICATION SECTION =====*/
 

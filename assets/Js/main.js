@@ -27,6 +27,30 @@
 //         }
 //     };
 
+let  = document.getElementById('skills__section-1');
+let  = document.getElementById('work__timeline');
+let  = document.querySelector('.education');
+let  = document.querySelector('.work');
+
+workLink.addEventListener('click', );
+
+function switching(e){
+    e.preventDefault();
+
+       .classList.remove('');
+       .classList.add('');
+};
+
+
+.addEventListener('click', );
+
+function myEducation(e){
+    e.preventDefault();
+
+    .classList.remove('');
+    .classList.add('');
+};
+
 
 
 // ==========Qualification JavaScript code====================
@@ -51,12 +75,13 @@ eduLink.addEventListener('click', myEducation);
 function myEducation(e){
     e.preventDefault();
 
-    eduTimeline.classList.remove('hide');
-    workTimeline.classList.add('hide');
+    workTimeline.classList.remove('hide');
+    eduTimeline.classList.add('hide');
 };
 
 // ==========Services JavaScript code=========================
 
+let serviceLink = document.querySelector('.services__link');
 
 
 // ==========Portfolio swiper JavaScript code=================
